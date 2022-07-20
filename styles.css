@@ -1,0 +1,42 @@
+
+h1 {
+    font-family: var(--heading-font,monospace,Roboto);
+    color: #070707 ;
+    text-align: center;
+}
+
+
+nav {
+  
+    line-height: 3em;
+    padding:5px ;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    background-color: #0cedf5;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    border-radius: 8px;
+  
+}
+ul {
+    padding: 5px;
+}  
+
+body{
+    background-color: #a9eff4dc;
+    
+}
+
+.navhover {
+    border: 10px solid #202e2fdc;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+    
+}
+
+.hover:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
